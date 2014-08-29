@@ -26,9 +26,9 @@ And Instantiate the reverseGeoCode using :
 
 There are three type of data you can retrieve from reverseGeo Code.
 
-1. KeyName   // Name of the Country
-2. KeyISO2A  // ISO with 2 Alpha
-3. KeyISO3A  // ISO with 3 Alpha
+#####1. KeyName   `// Name of the Country`
+#####2. KeyISO2A  `// ISO with 2 Alpha`
+#####3. KeyISO3A  `// ISO with 3 Alpha`
 
 You may use any of those key to retrieve detail of the Location.
 
