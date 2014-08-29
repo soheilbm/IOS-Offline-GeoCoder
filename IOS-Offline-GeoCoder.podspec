@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Soheilbm" => "soheilbm@me.com" }
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/soheilbm/IOS-Offline-GeoCoder", :tag => "0.0.1" }
-  s.source_files  = "Classes/*",
-  s.frameworks = ['Foundation','CoreLocation'],
-  s.requires_arc= true
+  s.source_files = "Classes/*",
+  s.frameworks   = ['Foundation','CoreLocation']
+  s.requires_arc = true
 end
