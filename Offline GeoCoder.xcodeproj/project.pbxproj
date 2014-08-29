@@ -19,6 +19,8 @@
 		C7ACD8BA19B053E70095CA5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7ACD8A219B053E70095CA5E /* UIKit.framework */; };
 		C7ACD8C219B053E70095CA5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7ACD8C019B053E70095CA5E /* InfoPlist.strings */; };
 		C7ACD8C419B053E70095CA5E /* Offline_GeoCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ACD8C319B053E70095CA5E /* Offline_GeoCoderTests.m */; };
+		C7ACD8D119B056890095CA5E /* CountriesGeoCode.json in Resources */ = {isa = PBXBuildFile; fileRef = C7ACD8CF19B056890095CA5E /* CountriesGeoCode.json */; };
+		C7ACD8D219B056890095CA5E /* reverseGeoCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ACD8D019B056890095CA5E /* reverseGeoCoder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		C7ACD8BF19B053E70095CA5E /* Offline GeoCoderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Offline GeoCoderTests-Info.plist"; sourceTree = "<group>"; };
 		C7ACD8C119B053E70095CA5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7ACD8C319B053E70095CA5E /* Offline_GeoCoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Offline_GeoCoderTests.m; sourceTree = "<group>"; };
+		C7ACD8CE19B056890095CA5E /* reverseGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseGeoCoder.h; sourceTree = "<group>"; };
+		C7ACD8CF19B056890095CA5E /* CountriesGeoCode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountriesGeoCode.json; sourceTree = "<group>"; };
+		C7ACD8D019B056890095CA5E /* reverseGeoCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseGeoCoder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		C7ACD89219B053E70095CA5E = {
 			isa = PBXGroup;
 			children = (
+				C7ACD8CD19B0566B0095CA5E /* GeoCoder */,
 				C7ACD8A419B053E70095CA5E /* Offline GeoCoder */,
 				C7ACD8BD19B053E70095CA5E /* Offline GeoCoderTests */,
 				C7ACD89D19B053E70095CA5E /* Frameworks */,
@@ -142,6 +148,16 @@
 				C7ACD8C019B053E70095CA5E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7ACD8CD19B0566B0095CA5E /* GeoCoder */ = {
+			isa = PBXGroup;
+			children = (
+				C7ACD8CE19B056890095CA5E /* reverseGeoCoder.h */,
+				C7ACD8D019B056890095CA5E /* reverseGeoCoder.m */,
+				C7ACD8CF19B056890095CA5E /* CountriesGeoCode.json */,
+			);
+			path = GeoCoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7ACD8D119B056890095CA5E /* CountriesGeoCode.json in Resources */,
 				C7ACD8A919B053E70095CA5E /* InfoPlist.strings in Resources */,
 				C7ACD8B119B053E70095CA5E /* Images.xcassets in Resources */,
 			);
@@ -241,6 +258,7 @@
 			files = (
 				C7ACD8AF19B053E70095CA5E /* AppDelegate.m in Sources */,
 				C7ACD8AB19B053E70095CA5E /* main.m in Sources */,
+				C7ACD8D219B056890095CA5E /* reverseGeoCoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +457,7 @@
 				C7ACD8C919B053E70095CA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7ACD8CA19B053E70095CA5E /* Build configuration list for PBXNativeTarget "Offline GeoCoderTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +466,7 @@
 				C7ACD8CC19B053E70095CA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

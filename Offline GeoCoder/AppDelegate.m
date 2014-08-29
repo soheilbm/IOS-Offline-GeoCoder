@@ -7,11 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "reverseGeoCoder.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    reverseGeoCoder *reverseGeoCode = [[reverseGeoCoder alloc]init];
+    
+    CLLocation *location1 = [[CLLocation alloc]initWithLatitude:41.0987947 longitude:-86.9682634];
+    CLLocation *location2 = [[CLLocation alloc]initWithLatitude:64.7857152 longitude:-42.3667156];
+
+    
+    NSLog(@" Location 1 Name %@",[reverseGeoCode getCountryDetailWithKey:KeyName withLocation:location1]);
+    NSLog(@" Location 1 ISO 2 alpha %@",[reverseGeoCode getCountryDetailWithKey:KeyISO2A withLocation:location1]);
+    
+    NSLog(@" Location 2 Name %@",[reverseGeoCode getCountryDetailWithKey:KeyName withLocation:location2]);
+    NSLog(@" Location 2 ISO 2 alpha %@",[reverseGeoCode getCountryDetailWithKey:KeyISO2A withLocation:location2]);
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
