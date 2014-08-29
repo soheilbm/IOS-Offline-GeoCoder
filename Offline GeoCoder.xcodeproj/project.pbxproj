@@ -82,7 +82,7 @@
 		C7ACD89219B053E70095CA5E = {
 			isa = PBXGroup;
 			children = (
-				C7ACD8CD19B0566B0095CA5E /* GeoCoder */,
+				C7ACD8CD19B0566B0095CA5E /* Classes */,
 				C7ACD8A419B053E70095CA5E /* Offline GeoCoder */,
 				C7ACD8BD19B053E70095CA5E /* Offline GeoCoderTests */,
 				C7ACD89D19B053E70095CA5E /* Frameworks */,
@@ -150,14 +150,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C7ACD8CD19B0566B0095CA5E /* GeoCoder */ = {
+		C7ACD8CD19B0566B0095CA5E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				C7ACD8CE19B056890095CA5E /* reverseGeoCoder.h */,
 				C7ACD8D019B056890095CA5E /* reverseGeoCoder.m */,
 				C7ACD8CF19B056890095CA5E /* CountriesGeoCode.json */,
 			);
-			path = GeoCoder;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
