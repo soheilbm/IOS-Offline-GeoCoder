@@ -21,6 +21,8 @@
 		C7ACD8C419B053E70095CA5E /* Offline_GeoCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ACD8C319B053E70095CA5E /* Offline_GeoCoderTests.m */; };
 		C7ACD8D119B056890095CA5E /* CountriesGeoCode.json in Resources */ = {isa = PBXBuildFile; fileRef = C7ACD8CF19B056890095CA5E /* CountriesGeoCode.json */; };
 		C7ACD8D219B056890095CA5E /* reverseGeoCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ACD8D019B056890095CA5E /* reverseGeoCoder.m */; };
+		C7B21A8919B5D5FF00FA0BFC /* reverseGeoCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ACD8D019B056890095CA5E /* reverseGeoCoder.m */; };
+		C7B21A8B19B5D60600FA0BFC /* CountriesGeoCode.json in Resources */ = {isa = PBXBuildFile; fileRef = C7ACD8CF19B056890095CA5E /* CountriesGeoCode.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7ACD8C219B053E70095CA5E /* InfoPlist.strings in Resources */,
+				C7B21A8B19B5D60600FA0BFC /* CountriesGeoCode.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B21A8919B5D5FF00FA0BFC /* reverseGeoCoder.m in Sources */,
 				C7ACD8C419B053E70095CA5E /* Offline_GeoCoderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
