@@ -18,7 +18,6 @@
     
     CLLocation *location1 = [[CLLocation alloc]initWithLatitude:41.0987947 longitude:-86.9682634];
     CLLocation *location2 = [[CLLocation alloc]initWithLatitude:64.7857152 longitude:-42.3667156];
-
     
     NSLog(@" Location 1 Name %@",[reverseGeoCode getCountryDetailWithKey:KeyName withLocation:location1]);
     NSLog(@" Location 1 ISO 2 alpha %@",[reverseGeoCode getCountryDetailWithKey:KeyISO2A withLocation:location1]);
