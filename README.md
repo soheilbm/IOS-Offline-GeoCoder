@@ -3,7 +3,17 @@ IOS-Offline-GeoCoder
 
 An Offline version of reverse Geo Code to retrieve Countries Name and ISO Codes.
 
-To Use this class simply add this to your project file.
+#### Installation
+
+To Use this class simply add this to your Podfile.
+
+```
+pod 'IOS-Offline-GeoCoder'
+```
+
+If you are not using Cocoapods, download this project and copy the Classes directory to your project.
+
+Import the reverseGeoCoder to your header file.
 
 ```
 #import "reverseGeoCoder.h"
@@ -33,3 +43,12 @@ There are three type of data you can retrieve from reverseGeo Code.
 You may use any of those key to retrieve detail of the Location.
 
 If you like this repo feel free to send your pull requests.
+
+
+#### ChangeLog
+V 0.0.2
+- Updating Podspec file to remove 'warning: no rule to process file json'
+
+V 0.0.1
+- First release of the project
+
