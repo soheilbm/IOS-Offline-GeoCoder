@@ -56,3 +56,8 @@ V 0.0.2
 V 0.0.1
 - First release of the project
 
+
+#### License 
+This project originally created by 
+krisrak  => https://github.com/krisrak/ios-offline-reverse-geocode-country
+
