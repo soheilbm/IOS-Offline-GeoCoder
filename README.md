@@ -19,15 +19,19 @@ Import the reverseGeoCoder to your header file.
 #import "reverseGeoCoder.h"
 ```
 
-And Instantiate the reverseGeoCode using : 
+Instantiate the reverseGeoCode using : 
 
 ```
   // --- Initializing reverseGeoCode
   reverseGeoCoder *reverseGeoCode = [[reverseGeoCoder alloc]init];
-  
+
+```
+
+```
   // --- Locations
   CLLocation *location = [[CLLocation alloc]initWithLatitude:41.0987947 longitude:-86.9682634];
-
+```
+```
     
   NSString *countryName = [reverseGeoCode getCountryDetailWithKey:KeyName withLocation:location];
   NSString *countryISO  = [reverseGeoCode getCountryDetailWithKey:KeyISO2A withLocation:location];
