@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "IOS-Offline-GeoCoder"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "An Offline Reverse GeoCoder for IOS."
 
   s.description  = <<-DESC
@@ -14,9 +14,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
 
-  s.source = { :git => "https://github.com/soheilbm/IOS-Offline-GeoCoder.git", :tag => "v0.0.1"}
+  s.source = { :git => "https://github.com/soheilbm/IOS-Offline-GeoCoder.git", :tag => "v0.0.2"}
 
-  s.source_files  = 'Classes/*'
+  s.source_files  = 'Classes/reverseGeoCoder.{h,m}'
+  s.resources    = 'Classes/CountriesGeoCode.json'
 
   s.frameworks = 'Foundation', 'CoreLocation'
 
