@@ -50,6 +50,10 @@ If you like this repo feel free to send your pull requests.
 
 
 #### ChangeLog
+V 0.0.3
+- Updating Malaysia and Singapore Polygone.
+- Updating Polygone check point by refering to http://stackoverflow.com/questions/16890294/leaflet-how-to-check-point-lies-inside-outside-of-polygon-or-rectangle 
+
 V 0.0.2
 - Updating Podspec file to remove 'warning: no rule to process file json'
 
