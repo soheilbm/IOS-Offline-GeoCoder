@@ -11,7 +11,7 @@ To Use this class simply add this to your Podfile.
 pod 'IOS-Offline-GeoCoder'
 ```
 
-If you are not using Cocoapods, download this project and copy the Classes directory to your project.
+If you are not using CocoaPods, download this project and copy the Classes directory to your project.
 
 Import the reverseGeoCoder to your header file.
 
