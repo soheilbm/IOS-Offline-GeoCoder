@@ -14,7 +14,7 @@
 {
     self = [super init];
     if (self) {
-        NSData *jsonFile = [[NSData alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"CountriesGeoCode" ofType:@"json"]];
+        NSData *jsonFile = [[NSData alloc] initWithContentsOfFile:[[NSBundle bundleForClass:self.class] pathForResource:@"CountriesGeoCode" ofType:@"json"]];
         _countryGeoData = [NSJSONSerialization JSONObjectWithData:jsonFile options:0 error:nil];
     }
     return self;
