@@ -41,12 +41,18 @@ NSString *countryISO  = [reverseGeoCode getCountryDetailWithKey:KeyISO2A withLoc
 
 There are three type of data you can retrieve from reverseGeo Code.
 
-###1. KeyName   
+##### 1. KeyName   
+
 `// Name of the Country`
-###2. KeyISO2A  
+
+##### 2. KeyISO2A  
+
 `// ISO with Alpha-2`
-###3. KeyISO3A  
+
+##### 3. KeyISO3A  
+
 `// ISO with Alpha-3`
+
 
 You may use any of those key to retrieve detail of the Location.
 
