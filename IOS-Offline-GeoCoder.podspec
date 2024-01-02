@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Soheilbm" => "soheilbm@me.com" }
 
-  s.platform     = :ios, '11.0'
+  s.platform     = :ios, '12.0'
 
   s.source = { :git => "https://github.com/soheilbm/IOS-Offline-GeoCoder.git", :tag => "v0.0.5"}
 
